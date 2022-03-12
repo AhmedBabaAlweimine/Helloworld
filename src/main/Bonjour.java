@@ -2,6 +2,6 @@ package main;
 
 public class Bonjour {
 public static void main(String[] argv){
-System.out.println("Bonjour khoya");	
+System.out.println("Bonjour khoya sidi");	
 }
 }
