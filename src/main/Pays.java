@@ -5,6 +5,7 @@ import java.util.List;
 public class Pays {
 private Long uid;	
 private String nom;
+private String prenom;
 private List<Pays> paysvisites;
 public Long getUid() {
 	return uid;
