@@ -60,11 +60,12 @@ public void setPaysvisites(List<Pays> paysvisites) {
 	this.paysvisites = paysvisites;
 }
 
+
 public int getQuaniti() {
 	return quaniti;
 }
-
 public void setQuaniti(int quaniti) {
 	this.quaniti = quaniti;
+
 }
 }
