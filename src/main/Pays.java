@@ -7,8 +7,9 @@ private Long uid;
 private String adrrese;
 private String nom;
 private String prenom;
+	//si c'est le cas
 private List<Bonjour> greeting;
-private int quanitié;	
+private int quanitiÃ©;	
 
 public Pays(Long uid, String nom, String prenom, List<Bonjour> greeting, List<Pays> paysvisites) {
 	super();
@@ -52,11 +53,11 @@ public void setPaysvisites(List<Pays> paysvisites) {
 	this.paysvisites = paysvisites;
 }
 
-public int getQuanitié() {
-	return quanitié;
+public int getQuanitiÃ©() {
+	return quanitiÃ©;
 }
 
-public void setQuanitié(int quanitié) {
-	this.quanitié = quanitié;
+public void setQuanitiÃ©(int quanitiÃ©) {
+	this.quanitiÃ© = quanitiÃ©;
 }
 }
