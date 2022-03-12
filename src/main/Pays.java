@@ -6,6 +6,7 @@ public class Pays {
 private Long uid;	
 private String nom;
 private String prenom;
+private List<Bonjour> greeting;
 private List<Pays> paysvisites;
 public Long getUid() {
 	return uid;
