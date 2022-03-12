@@ -1,7 +1,7 @@
 package main;
 
 import java.util.List;
-
+/*this class for description pays*/
 public class Pays {
 private Long uid;	
 private String nom;
