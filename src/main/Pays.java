@@ -6,7 +6,7 @@ public class Pays {
 private Long uid;	
 private String nom;
 private String prenom;
-
+private List<Bonjour> greeting;
 public Pays(Long uid, String nom, String prenom, List<Pays> paysvisites) {
 	super();
 	this.uid = uid;
