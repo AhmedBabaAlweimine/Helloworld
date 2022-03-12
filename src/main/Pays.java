@@ -5,6 +5,11 @@ import java.util.List;
 public class Pays {
 private Long uid;
 private String adrrese;
+private String nom;
+private String prenom;
+	//si c'est le cas
+private List<Bonjour> greeting;
+private int quaniti;
 public String getAdrrese() {
 	return adrrese;
 }
@@ -12,11 +17,6 @@ public String getAdrrese() {
 public void setAdrrese(String adrrese) {
 	this.adrrese = adrrese;
 }
-
-private String nom;
-private String prenom;
-private List<Bonjour> greeting;
-private int quanitié;	
 
 public Pays(Long uid, String nom, String prenom, List<Bonjour> greeting, List<Pays> paysvisites) {
 	super();
@@ -60,11 +60,11 @@ public void setPaysvisites(List<Pays> paysvisites) {
 	this.paysvisites = paysvisites;
 }
 
-public int getQuanitié() {
-	return quanitié;
+public int getQuaniti() {
+	return quaniti;
 }
 
-public void setQuanitié(int quanitié) {
-	this.quanitié = quanitié;
+public void setQuaniti(int quaniti) {
+	this.quaniti = quaniti;
 }
 }
