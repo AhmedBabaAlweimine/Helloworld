@@ -1,6 +1,6 @@
 package main;
 
 public class Pays {
-private int Id;
+private Long uid;	
 private String nom;
 }
