@@ -3,7 +3,8 @@ package main;
 import java.util.List;
 /*this class for description pays*/
 public class Pays {
-private Long uid;	
+private Long uid;
+private String adrrese;
 private String nom;
 private String prenom;
 private List<Bonjour> greeting;
