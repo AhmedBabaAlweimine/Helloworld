@@ -3,6 +3,15 @@ package main;
 import java.util.List;
 /*this class for description pays*/
 public class Pays {
+private int quanitié;	
+public int getQuanitié() {
+	return quanitié;
+}
+
+public void setQuanitié(int quanitié) {
+	this.quanitié = quanitié;
+}
+
 private Long uid;	
 private String nom;
 private String prenom;
