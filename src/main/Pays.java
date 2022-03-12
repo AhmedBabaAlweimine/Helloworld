@@ -9,13 +9,6 @@ private String nom;
 private String prenom;
 private List<Bonjour> greeting;
 private int quanitié;	
-public int getQuanitié() {
-	return quanitié;
-}
-
-public void setQuanitié(int quanitié) {
-	this.quanitié = quanitié;
-}
 
 public Pays(Long uid, String nom, String prenom, List<Bonjour> greeting, List<Pays> paysvisites) {
 	super();
@@ -57,5 +50,13 @@ public void setNom(String nom) {
 }
 public void setPaysvisites(List<Pays> paysvisites) {
 	this.paysvisites = paysvisites;
+}
+
+public int getQuanitié() {
+	return quanitié;
+}
+
+public void setQuanitié(int quanitié) {
+	this.quanitié = quanitié;
 }
 }
