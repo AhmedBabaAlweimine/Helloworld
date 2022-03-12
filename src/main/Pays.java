@@ -5,6 +5,14 @@ import java.util.List;
 public class Pays {
 private Long uid;
 private String adrrese;
+public String getAdrrese() {
+	return adrrese;
+}
+
+public void setAdrrese(String adrrese) {
+	this.adrrese = adrrese;
+}
+
 private String nom;
 private String prenom;
 private List<Bonjour> greeting;
