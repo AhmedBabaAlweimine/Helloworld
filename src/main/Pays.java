@@ -12,6 +12,8 @@ private String prenom;
 
 	private Formation form;
 	
+	private double Totalprice;
+	
 private List<Bonjour> greeting;
 private int quaniti;
 public String getAdrrese() {
