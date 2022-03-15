@@ -7,7 +7,15 @@ private Long uid;
 private String adrrese;
 private String nom;
 private String prenom;
-	//si c'est le cas
+private Formation form;
+public Formation getForm() {
+	return form;
+}
+
+public void setForm(Formation form) {
+	this.form = form;
+}
+
 private List<Bonjour> greeting;
 private int quaniti;
 public String getAdrrese() {
