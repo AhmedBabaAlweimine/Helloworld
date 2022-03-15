@@ -8,6 +8,7 @@ private String adrrese;
 private String nom;
 private String prenom;
 	//si c'est le cas
+	private Personne per; 
 private List<Bonjour> greeting;
 private int quaniti;
 public String getAdrrese() {
