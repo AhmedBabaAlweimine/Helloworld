@@ -9,8 +9,11 @@ private String nom;
 private String prenom;
 	//si c'est le cas
 	private Personne per; 
+<<<<<<< HEAD
 	private Formation form;
 	
+=======
+>>>>>>> branch 'master' of https://github.com/AhmedBabaAlweimine/Helloworld.git
 private List<Bonjour> greeting;
 private int quaniti;
 public String getAdrrese() {
@@ -71,6 +74,7 @@ public void setQuaniti(int quaniti) {
 	this.quaniti = quaniti;
 
 }
+<<<<<<< HEAD
 public Formation getForm() {
 	return form;
 }
@@ -78,4 +82,6 @@ public Formation getForm() {
 public void setForm(Formation form) {
 	this.form = form;
 }
+=======
+>>>>>>> branch 'master' of https://github.com/AhmedBabaAlweimine/Helloworld.git
 }
