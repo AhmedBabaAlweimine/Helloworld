@@ -12,7 +12,37 @@ private String prenom;
 
 	private Formation form;
 	
-private List<Bonjour> greeting;
+	private double Totalprice;
+	
+	 
+	private Long Id;
+	private String nDeliom;
+
+	public Personne getPer() {
+		return per;
+	}
+
+	public Long getId() {
+		return Id;
+	}
+
+	public String getnDeliom() {
+		return nDeliom;
+	}
+
+	public void setPer(Personne per) {
+		this.per = per;
+	}
+
+	public void setId(Long id) {
+		Id = id;
+	}
+
+	public void setnDeliom(String nDeliom) {
+		this.nDeliom = nDeliom;
+	}
+
+	private List<Bonjour> greeting;
 private int quaniti;
 public String getAdrrese() {
 	return adrrese;
