@@ -86,6 +86,7 @@ public String getNom() {
 public List<Pays> getPaysvisites() {
 	return paysvisites;
 }
+//
 public void setUid(Long uid) {
 	this.uid = uid;
 }
